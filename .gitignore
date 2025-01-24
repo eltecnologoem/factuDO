@@ -1,5 +1,5 @@
 db
 templates
 .env
-app/data/logs
+app/data/logs/*.log
 app/config/api_keys.json
