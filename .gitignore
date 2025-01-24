@@ -2,4 +2,4 @@ db
 templates
 .env
 app/data/logs
-app/config/api_factus.json
+app/config/api_keys.json
