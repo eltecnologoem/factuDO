@@ -9,7 +9,7 @@ class Model
   public static $userToken = false;
   public static $userRefreshToken = false;
 
-  private static $jsonApi = ROOTDIR . 'config/api_factus';
+  private static $jsonApi = ROOTDIR . 'config/api_keys';
 
   public function __construct()
   {
