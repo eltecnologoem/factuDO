@@ -1,0 +1,4 @@
+db
+templates
+.env
+app/data/logs

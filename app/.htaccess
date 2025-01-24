@@ -1,0 +1,5 @@
+Options -Indexes
+
+# Impedimento solicitud archivos .php
+RewriteCond %{THE_REQUEST} "^.+? [^?]+\.php(?:[?/# ]|$)" [NC]
+RewriteRule !^index\.php$ - [F,L,NC]
